@@ -71,7 +71,8 @@
             "sslKey": "./ssl/server.key",
             "sslCert": "./ssl/server.crt",
             "ssl": true,
-            "browserTarget": "test:build"
+            "browserTarget": "move-safe:build",
+            "proxyConfig": "src/proxy.conf.json"
           },
           "configurations": {
             "production": {
